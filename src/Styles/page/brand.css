@@ -1,0 +1,32 @@
+/* BrandImages.css */
+
+/* Container for the images */
+.brand-images-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    justify-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Individual image styling */
+  .brand-image {
+    max-width: 80%;
+    height: auto;
+    padding: 4px;
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect for images */
+  .brand-image:hover {
+    transform: scale(1.05); /* Increase the size of the image on hover */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+  }
+  
+  /* Loading text */
+  .loading-text {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  

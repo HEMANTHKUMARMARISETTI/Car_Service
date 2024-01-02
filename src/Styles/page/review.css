@@ -1,0 +1,138 @@
+/* slider.css */
+.review-slider {
+  
+  padding: 20px;
+  
+  font-family: Arial, sans-serif;
+  max-width: 1500px; /* Adjust max-width for larger screens */
+  margin: 0 auto;
+}
+
+/* ... Rest of the CSS remains the same ... */
+
+
+/* Update slider.css */
+.review-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: left;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  width: 1500px; /* Set the maximum width to make it ultra-wide */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.review-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.customer-image {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.add-review-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.add-review-form input[type="text"],
+.add-review-form textarea,
+.add-review-form input[type="number"],
+.add-review-form button {
+  margin: 10px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f7f7f7;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-review-form input[type="text"]:focus,
+.add-review-form textarea:focus,
+.add-review-form input[type="number"]:focus,
+.add-review-form button:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.add-review-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-review-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for slider dots */
+.slick-dots {
+  bottom: 20px;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform: scale(0.8);
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.slick-dots li.slick-active {
+  transform: scale(1);
+  opacity: 1;
+  background-color: red;
+}
+
+/* Animation for the slider */
+.slick-slide {
+  transition: transform 0.3s ease-in-out;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Improved typography */
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* Improved button styling */
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}

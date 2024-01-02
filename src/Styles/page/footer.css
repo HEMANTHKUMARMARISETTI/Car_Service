@@ -1,0 +1,128 @@
+/* Footer.css */
+.footer {
+  background-color: #1b1b1b;
+  color: #fff;
+  padding: 20px 0; /* Reduced padding for mobile */
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+  margin-bottom: 20px; /* Reduced margin for mobile */
+  text-align: center; /* Center content for mobile */
+}
+
+.footer-section h3 {
+  font-size: 1.2rem; /* Reduced font size for mobile */
+  margin-bottom: 10px; /* Reduced margin for mobile */
+  text-transform: uppercase;
+  color: #f00;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px; /* Reduced margin for mobile */
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: #007bff;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center social icons for mobile */
+  margin-top: 10px; /* Reduced margin for mobile */
+}
+
+.social-icons a {
+  margin-right: 10px; /* Reduced margin for mobile */
+  font-size: 1.2rem; /* Reduced font size for mobile */
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 10px; /* Reduced margin for mobile */
+  font-size: 0.8rem; /* Reduced font size for mobile */
+  color: #999;
+}
+
+
+
+/* Media query for screens with a maximum width of 768px (mobile view) */
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px 0; /* Reduced padding for mobile */
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px; /* Reduced padding for mobile */
+  }
+  
+  .footer-section {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 15px; /* Adjusted margin for mobile */
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem; /* Reduced font size for mobile */
+    margin-bottom: 10px; /* Adjusted margin for mobile */
+  }
+  
+  ul li {
+    margin-bottom: 5px; /* Adjusted margin for mobile */
+  }
+  
+  ul li a {
+    font-size: 0.8rem; /* Reduced font size for mobile */
+  }
+  
+  .social-icons {
+    justify-content: center;
+    margin-top: 10px; /* Reduced margin for mobile */
+  }
+  
+  .social-icons a {
+    margin-right: 10px; /* Adjusted margin for mobile */
+    font-size: 1.2rem; /* Reduced font size for mobile */
+  }
+  
+  .copyright {
+    margin-top: 10px; /* Reduced margin for mobile */
+    font-size: 0.7rem; /* Reduced font size for mobile */
+  }
+}

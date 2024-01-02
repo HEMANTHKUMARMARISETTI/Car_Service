@@ -1,0 +1,89 @@
+/* Style for the carousel container */
+.car-slider {
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .slider-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the carousel wrapper (the entire carousel section) */
+  .carousel-wrapper {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  /* Style for the carousel items (cards) */
+  .car-item {
+    width: 300px; /* Set a fixed width for each card */
+    height: 350px; /* Set a fixed height for each card */
+    margin: 0 10px; /* Add some margin between cards */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Style for the images inside the cards */
+  .car-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin: 0 auto; /* Center the image horizontally */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Add hover effect for cards and images */
+  .car-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .car-image:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Style for the Next and Previous buttons */
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .carousel-button:hover {
+    background-color: #e65100; /* Darker shade on hover */
+  }
+  
+  /* Mobile-responsive styles */
+  @media (max-width: 768px) {
+    /* Adjust card width, height, and margin for smaller screens */
+    .car-item {
+      width: 250px;
+      height: 300px;
+      margin: 0 5px;
+    }
+  
+    /* Reduce font size for smaller screens */
+    .slider-title {
+      font-size: 20px;
+    }
+  }
+  

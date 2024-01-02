@@ -1,0 +1,132 @@
+
+
+
+.carousel-container {
+  width: 100%;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative; /* Allows positioning of the overlay text */
+  overflow: hidden; /* Ensure the background image doesn't overflow */
+
+  /* Background image styles */
+  background-image: url('../../assets/img/square-ios-app-xxl.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  /* Animation for the background image */
+  animation: moveBackground 10s linear infinite
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: center left;
+  }
+  90% {
+    background-position: center right;
+  }
+}
+
+/* Button styles */
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-left: 50px;
+}
+
+.contact-button:hover {
+  background-color: darkred; /* Change the background color on hover */
+}
+
+
+
+
+/* Styles for the overlay text */
+.carousel-overlay {
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  text-align: center;
+  width: 100%;
+}
+
+.carousel-overlay h1 {
+  font-size: 36px; /* Adjust the font size as needed */
+  color: #fff; /* Text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for better readability */
+}
+
+.carousel-overlay h2 {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #fff; /* Text color */
+}
+
+.carousel-overlay p {
+  font-size: 16px; /* Adjust the font size as needed */
+  color: #fff; /* Text color */
+}
+
+.carousel-item {
+   width: 100%;
+   height: auto;
+   /* Adjust the height as needed */
+}
+
+.trend {
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.car2{
+  margin-top: 100px;
+  width: 50%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 30px; /* Further reduced font size for smaller screens */
+  }
+
+  .hero h2 {
+    font-size: 25px; /* Further reduced font size for smaller screens */
+  }
+
+  .hero p {
+    font-size: 14px; /* Further reduced font size for smaller screens */
+  }
+
+  .contact-button {
+    font-size: 14px; /* Further reduced font size for smaller screens */
+  }
+  
+  /* Ensure the carousel height adjusts for mobile */
+  .carousel-container .carousel .slider {
+    height: auto;
+  }
+
+  .trend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+}

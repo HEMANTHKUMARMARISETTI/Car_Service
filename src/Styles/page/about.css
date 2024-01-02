@@ -1,0 +1,236 @@
+/* styles.css */
+/* Default styles for larger screens */
+.image-container {
+  max-width: 100%;
+  position: relative;
+  overflow: hidden; /* Hide overflowing content for animation */
+  transition: transform 0.3s ease; /* Add a transition for smooth animation */
+}
+
+img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease; /* Add a transition for smooth image fade-in */
+}
+
+.about-name {
+  position: absolute; /* Position the text over the image */
+  bottom: 10px; /* Adjust this value to control the vertical position */
+  left: 10px; /* Adjust this value to control the horizontal position */
+  align-items: center;
+  padding: 200px 250px ; /* Padding for the text */
+  color: white; /* Text color */
+  border-radius: 5px; /* Rounded corners for the text box */
+  font-size: 200px; /* Font size for the text */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Add transitions for smooth slide-up and fade-in */
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .about-name {
+    font-size: 100px;
+    padding: 5px;
+    padding: 70px 120px;
+  }
+}
+
+/* Hover effect for image and text */
+.image-container:hover {
+  transform: scale(1.05); /* Scale up the image on hover */
+}
+
+.image-container:hover img {
+  opacity: 0.8; /* Reduce image opacity on hover */
+}
+
+.image-container:hover .about-name {
+  transform: translateY(-50px); /* Slide up the text on hover */
+  opacity: 1; /* Fade in the text on hover */
+}
+
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background:url('../../assets/img/about/pattern-1.453d7bf9eaaad4365e80.png');
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+
+.about-content {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  opacity: 0; /* Start with opacity at 0 for the fade effect */
+  animation: fadeInLeft 1s ease forwards; /* Apply the fadeInLeft animation */
+}
+
+.about-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.about-image {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  opacity: 0; /* Start with opacity at 0 for the fade effect */
+  animation: fadeInRight 1s ease forwards; /* Apply the fadeInRight animation */
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* styles.css */
+.image-about {
+  border-radius: 15%;
+  height: 200px;
+  width: 500px;
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition for the transform property */
+}
+
+/* Add a hover effect for the image */
+.image-about:hover {
+  transform: scale(1.1); /* Increase the scale on hover (you can adjust the scale factor) */
+}
+
+/* styles.css */
+.bac-imag{
+  height: 50%;
+}
+
+.card-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Define the fadeInLeft animation */
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Define the fadeInRight animation */
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Media query for screens smaller than a certain width (adjust as needed) */
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* Change flex direction to column for mobile view */
+    background-color: transparent; /* Remove background color for transparency on mobile */
+  }
+
+  .about-content, .about-image {
+    opacity: 1; /* Show content on mobile view */
+    animation: none; /* Disable animations on mobile view */
+  }
+
+  .about-content {
+    text-align: left;
+  }
+
+  .image-about.mobile-image {
+    max-width: 100%; /* Resize the image to fit the container width */
+    height: auto;
+    margin-top: 20px; /* Add some top margin for spacing */
+    border-radius: 15%;
+  }
+}
+
+
+/* MissionAndValues.css */
+
+/* MissionAndValues.css */
+
+.mission-and-values {
+  background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.mission-and-values h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  flex-basis: calc(33.33% - 20px);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  background-color: #f0f0f0;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Custom fonts */
+h2,
+.card h3 {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+p {
+  font-family: 'Helvetica Neue', sans-serif;
+}

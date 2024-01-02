@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "carDetails": {
+        "model": "Nano",
+        "year": 2022,
+        "color": "Yellow",
+        "price": 10000,
+        "image": "https://images.carandbike.com/car-images/large/tata/nano/tata-nano.jpg?v=8",
+        "dailyPrice": 25,
+        "monthlyPrice": 600
+      },
+      "fromLocation": "h",
+      "toLocation": "h",
+      "rentalDays": 1,
+      "rentalMonths": 2,
+      "totalRentalPrice": 1225,
+      "id": 1
+    },
+    {
+      "carDetails": {
+        "model": "Tiago",
+        "year": 2023,
+        "color": "Red",
+        "price": 15000,
+        "image": "https://th.bing.com/th/id/OIP.h38KAD1XMVTQQYBJHd4luAHaEK?pid=ImgDet&rs=1",
+        "dailyPrice": 35,
+        "monthlyPrice": 800
+      },
+      "fromLocation": "dsss",
+      "toLocation": "s",
+      "rentalDays": 3,
+      "rentalMonths": 3,
+      "totalRentalPrice": 2505,
+      "id": 2
+    }
+  ],
+  "placeOrder": {
+    "items": [
+      {
+        "carDetails": {
+          "model": "Nano",
+          "year": 2022,
+          "color": "Yellow",
+          "price": 10000,
+          "image": "https://images.carandbike.com/car-images/large/tata/nano/tata-nano.jpg?v=8",
+          "dailyPrice": 25,
+          "monthlyPrice": 600
+        },
+        "fromLocation": "h",
+        "toLocation": "h",
+        "rentalDays": 1,
+        "rentalMonths": 2,
+        "totalRentalPrice": 1225,
+        "id": 1
+      },
+      {
+        "carDetails": {
+          "model": "Tiago",
+          "year": 2023,
+          "color": "Red",
+          "price": 15000,
+          "image": "https://th.bing.com/th/id/OIP.h38KAD1XMVTQQYBJHd4luAHaEK?pid=ImgDet&rs=1",
+          "dailyPrice": 35,
+          "monthlyPrice": 800
+        },
+        "fromLocation": "dsss",
+        "toLocation": "s",
+        "rentalDays": 3,
+        "rentalMonths": 3,
+        "totalRentalPrice": 2505,
+        "id": 2
+      }
+    ]
+  }
+}

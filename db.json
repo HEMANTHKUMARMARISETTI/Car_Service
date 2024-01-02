@@ -1,0 +1,424 @@
+{
+  "brands": [
+    {
+      "name": "Toyota",
+      "cars": [
+        {
+          "model": "Camry",
+          "year": 2022,
+          "color": "Silver",
+          "price": 25000,
+          "image": "https://th.bing.com/th/id/R.ee3a8eb625b80e8a339ba413b6083356?rik=Tk7MxZN4EZNSRg&riu=http%3a%2f%2fwww.tflcar.com%2fwp-content%2fuploads%2f2017%2f06%2f2018-toyota-camry-se-hybrid.jpg&ehk=A1YTlinm5s08%2fAMXpOGFH6qUU8UmgruHhJBE1q6svlc%3d&risl=&pid=ImgRaw&r=0",
+          "dailyPrice": 50,
+          "monthlyPrice": 1200
+        },
+        {
+          "model": "Corolla",
+          "year": 2022,
+          "color": "White",
+          "price": 22000,
+          "image": "https://th.bing.com/th/id/R.83a769fe9325d61867dbe10a24b71b78?rik=lZRh2Ui0Hw%2bzYA&riu=http%3a%2f%2fwww.thedetroitbureau.com%2fwp-content%2fuploads%2f2017%2f08%2f2017-Toyota-Corolla-iM.jpg&ehk=sgIypt7IrxkGL4ltHmGn8FWkLF8aH9bs2GAO1Wr2kzg%3d&risl=&pid=ImgRaw&r=0",
+          "dailyPrice": 45,
+          "monthlyPrice": 1100
+        },
+        {
+          "model": "Rav4",
+          "year": 2022,
+          "color": "Blue",
+          "price": 28000,
+          "image": "https://th.bing.com/th/id/OIP.Wl4N-VhJDDdMhZzZAkefOgHaE8?pid=ImgDet&rs=1",
+          "dailyPrice": 60,
+          "monthlyPrice": 1400
+        },
+        {
+          "model": "C Hybrid",
+          "year": 2023,
+          "color": "Green",
+          "price": 27000,
+          "image": "https://th.bing.com/th/id/OIP.JonEllL9EL4FYeF-YAlqVQHaEK?w=305&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "dailyPrice": 55,
+          "monthlyPrice": 1300
+        },
+        {
+          "model": "Highlander",
+          "year": 2023,
+          "color": "Gray",
+          "price": 35000,
+          "image": "https://th.bing.com/th/id/OIP.cbiFfUlhb0yyBjdMXA2c5wHaE8?pid=ImgDet&rs=1",
+          "dailyPrice": 70,
+          "monthlyPrice": 1600
+        }
+      ]
+    },
+    {
+      "name": "BMW",
+      "cars": [
+        {
+          "model": "X5",
+          "year": 2023,
+          "color": "Black",
+          "price": 55000,
+          "image": "https://th.bing.com/th/id/OIP.HiDR7SUY5Y2pfVZ0UVb3QwHaE7?pid=ImgDet&rs=1",
+          "dailyPrice": 80,
+          "monthlyPrice": 1900
+        },
+        {
+          "model": "3 Series",
+          "year": 2023,
+          "color": "Red",
+          "price": 48000,
+          "image": "https://mediacloud.carbuyer.co.uk/image/private/s--hZkf71Yq--/v1579631359/carbuyer/2018/10/p90323664_highres.jpg",
+          "dailyPrice": 75,
+          "monthlyPrice": 1800
+        },
+        {
+          "model": "7 Series",
+          "year": 2023,
+          "color": "Silver",
+          "price": 75000,
+          "image": "https://th.bing.com/th/id/OIP.kmsGV41sModoZpLD_OJ0UwHaE8?w=279&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "dailyPrice": 100,
+          "monthlyPrice": 2500
+        },
+        {
+          "model": "X3",
+          "year": 2022,
+          "color": "Blue",
+          "price": 45000,
+          "image": "https://th.bing.com/th/id/OIP.uH9mJkpEwVwU47WJZW43cgHaEo?pid=ImgDet&rs=1",
+          "dailyPrice": 70,
+          "monthlyPrice": 1600
+        },
+        {
+          "model": "5 Series",
+          "year": 2022,
+          "color": "White",
+          "price": 52000,
+          "image": "https://th.bing.com/th/id/OIP.-CMqgNxb-fVZFkx-acQhYAHaEK?w=273&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "dailyPrice": 75,
+          "monthlyPrice": 1800
+        }
+      ]
+    },
+    {
+      "name": "Rolls-Royce",
+      "cars": [
+        {
+          "model": "Phantom",
+          "year": 2023,
+          "color": "Silver",
+          "price": 500000,
+          "image": "https://th.bing.com/th/id/OIP.Ue4_mUek5uzrhQilxMzXPQHaEK?w=290&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "dailyPrice": 1000,
+          "monthlyPrice": 30000
+        },
+        {
+          "model": "Cullinan",
+          "year": 2022,
+          "color": "Black",
+          "price": 550000,
+          "image": "https://th.bing.com/th/id/OIP.mQuj3XZmu1SPKocaOTKz4wHaFj?pid=ImgDet&rs=1",
+          "dailyPrice": 1100,
+          "monthlyPrice": 33000
+        },
+        {
+          "model": "Ghost",
+          "year": 2023,
+          "color": "White",
+          "price": 450000,
+          "image": "https://th.bing.com/th/id/OIP._n4DWgVoghS8G5foSi22UgHaFj?pid=ImgDet&rs=1",
+          "dailyPrice": 950,
+          "monthlyPrice": 29000
+        },
+        {
+          "model": "Wraith",
+          "year": 2022,
+          "color": "Red",
+          "price": 480000,
+          "image": "https://th.bing.com/th/id/OIP.yBViV43mYRxl5B83Y5e1GAHaE7?pid=ImgDet&rs=1",
+          "dailyPrice": 1000,
+          "monthlyPrice": 30000
+        },
+        {
+          "model": "Dawn",
+          "year": 2022,
+          "color": "Blue",
+          "price": 520000,
+          "image": "https://s1.cdn.autoevolution.com/images/reviews/gallery/2016-rolls-royce-dawn-review_51.jpg",
+          "dailyPrice": 1050,
+          "monthlyPrice": 31000
+        }
+      ]
+    },
+    {
+      "name": "Audi",
+      "cars": [
+        {
+          "model": "A4",
+          "year": 2022,
+          "color": "Black",
+          "price": 42000,
+          "image": "https://th.bing.com/th/id/OIP.tkxqH_b-VqP-Ky2BDnxuCwHaD8?w=308&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "dailyPrice": 65,
+          "monthlyPrice": 1500
+        },
+        {
+          "model": "Q5",
+          "year": 2022,
+          "color": "White",
+          "price": 48000,
+          "image": "https://i1.wp.com/practicalmotoring.com.au/wp-content/uploads/2020/09/New-Audi-Q5-Sportback-2020-8.jpg?fit=2520%2C1420&ssl=1",
+          "dailyPrice": 70,
+          "monthlyPrice": 1600
+        },
+        {
+          "model": "A6",
+          "year": 2023,
+          "color": "Silver",
+          "price": 55000,
+          "image": "https://th.bing.com/th/id/OIP.JiRH-IdXw_p6Fvz_4FaBCgHaE9?pid=ImgDet&rs=1",
+          "dailyPrice": 80,
+          "monthlyPrice": 1900
+        },
+        {
+          "model": "Q7",
+          "year": 2023,
+          "color": "Blue",
+          "price": 60000,
+          "image": "https://th.bing.com/th/id/R.dafef713162f39aef4e64a7cc033ee0c?rik=3u6QMmUJzf8LaQ&riu=http%3a%2f%2fwww.dieselstation.com%2fwallpapers%2falbums%2fAudi%2fQ7-2016%2fAudi-Q7-2016-widescreen-06.jpg&ehk=s2Pn8gSQm%2fxDt3B9kU01kgJM4Uaf%2f3izHb1Q20m8nj8%3d&risl=&pid=ImgRaw&r=0",
+          "dailyPrice": 90,
+          "monthlyPrice": 2100
+        },
+        {
+          "model": "TT",
+          "year": 2022,
+          "color": "Red",
+          "price": 45000,
+          "image": "https://th.bing.com/th/id/OIP.Ws_iqCqq3xl5SrhcjWg62AHaEo?pid=ImgDet&rs=1",
+          "dailyPrice": 70,
+          "monthlyPrice": 1600
+        }
+      ]
+    },
+    {
+      "name": "Tata",
+      "cars": [
+        {
+          "model": "Nano",
+          "year": 2022,
+          "color": "Yellow",
+          "price": 10000,
+          "image": "https://images.carandbike.com/car-images/large/tata/nano/tata-nano.jpg?v=8",
+          "dailyPrice": 25,
+          "monthlyPrice": 600
+        },
+        {
+          "model": "Tiago",
+          "year": 2023,
+          "color": "Red",
+          "price": 15000,
+          "image": "https://th.bing.com/th/id/OIP.h38KAD1XMVTQQYBJHd4luAHaEK?pid=ImgDet&rs=1",
+          "dailyPrice": 35,
+          "monthlyPrice": 800
+        },
+        {
+          "model": "Nexon",
+          "year": 2022,
+          "color": "Blue",
+          "price": 18000,
+          "image": "https://th.bing.com/th/id/OIP.4uZz2R-e29eMqa0eHDpERQHaEK?pid=ImgDet&rs=1",
+          "dailyPrice": 40,
+          "monthlyPrice": 950
+        },
+        {
+          "model": "Harrier",
+          "year": 2023,
+          "color": "Gray",
+          "price": 22000,
+          "image": "https://th.bing.com/th/id/OIP.gwCVmD7dOe6_jU55q1ARpgHaFj?pid=ImgDet&rs=1",
+          "dailyPrice": 45,
+          "monthlyPrice": 1100
+        },
+        {
+          "model": "Safari",
+          "year": 2022,
+          "color": "White",
+          "price": 25000,
+          "image": "https://th.bing.com/th/id/OIP.pRC5JqH1tmf0jNR4mV0fnAHaEK?pid=ImgDet&rs=1",
+          "dailyPrice": 50,
+          "monthlyPrice": 1200
+        }
+      ]
+    }
+  ],
+  "trending": [
+    {
+      "name": "2023 Model X",
+      "description": "The latest electric SUV with advanced autonomous driving features.",
+      "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-X-Order-Desktop_Mobile-LHD.jpg"
+    },
+    {
+      "name": "2023 BMW 7 Series",
+      "description": "Luxury sedan with cutting-edge technology and elegant design.",
+      "image": "https://img.sm360.ca/ir/w640h390c/images/newcar/ca/2021/bmw/serie-7-a-empattement-allongee/m760li-xdrive/sedan/exteriorColors/2021_bmw-760li-brilliant-white-met_001.png"
+    },
+    {
+      "name": "2023 Audi Q5",
+      "description": "Compact SUV known for its sporty handling and comfort.",
+      "image": "https://mediaservice.audi.com/media/live/50900/f8/8rbs/2017.png"
+    },
+    {
+      "name": "2023 Mercedes-Benz E-Class",
+      "description": "A luxurious and stylish executive sedan with advanced features.",
+      "image": "https://pngimg.com/uploads/mercedes/mercedes_PNG80114.png"
+    },
+    {
+      "name": "2023 Tesla Roadster",
+      "description": "The new Roadster with jaw-dropping acceleration and design.",
+      "image": "https://www.pngmart.com/files/4/Tesla-PNG-Picture.png"
+    },
+    {
+      "name": "2023 Porsche Cayenne",
+      "description": "High-performance SUV combining luxury and sportiness.",
+      "image": "https://www.pngarts.com/files/4/White-Porsche-PNG-Image-Background.png"
+    },
+    {
+      "name": "2023 Ford Explorer",
+      "description": "Midsize SUV with advanced technology and spacious interior.",
+      "image": "https://vehicle-images.dealerinspire.com/stock-images/chrome/816e8f4486faf0ad73c532f0ab262042.png"
+    }
+  ],
+  "upcoming": [
+    {
+      "name": "2024 Toyota Supra",
+      "description": "The next-generation sports car from Toyota, promising more power and style.",
+      "image": "https://ownersman.com/storage/makes/Toyota/supra.png"
+    },
+    {
+      "name": "2024 Ford Mustang Mach-E GT",
+      "description": "High-performance electric SUV inspired by the classic Mustang.",
+      "image": "https://web21st.imgix.net/assets/images/new-vehicles/ford/ford-mustang-mach-e.png"
+    },
+    {
+      "name": "2024 Porsche 911 GT3 RS",
+      "description": "Track-focused sports car with a powerful flat-six engine.",
+      "image": "https://picolio.auto123.com/16photo/porsche/2016-porsche-911-rs_1.png"
+    },
+    {
+      "name": "2024 Lamborghini Huracán EVO",
+      "description": "Exotic supercar with a roaring V10 engine and striking design.",
+      "image": "http://data.3dtuning.com/tun/Doih0g5-z0.png"
+    },
+    {
+      "name": "2024 Volkswagen ID.4",
+      "description": "Electric SUV with modern styling and eco-friendly technology.",
+      "image": "https://img.sm360.ca/ir/w640h390c/images/newcar/ca/2023/bmw/i4/edrive40/coupe/exteriorColors/2023_bmw_i4_edrive40_001_x1f.png"
+    },
+    {
+      "name": "2024 Chevrolet Silverado",
+      "description": "A versatile pickup truck with robust performance and technology.",
+      "image": "https://clipground.com/images/2016-silverado-png-4.png"
+    },
+    {
+      "name": "2024 Hyundai Sonata",
+      "description": "A stylish and affordable midsize sedan with advanced safety features.",
+      "image": "https://s3.us-east-2.amazonaws.com/dealer-inspire-vps-vehicle-images/stock-images/thumbnails/large/chrome/f6866d6b367f02aceecbf4dcabf3e10b.png"
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "role": "CEO",
+      "description": "John Doe is the CEO of our car rental service. He brings years of experience in the automotive industry and is dedicated to providing the best car rental experience for our customers.",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.byUv4dV_q9MA8MgGaGNPxAHaFM&pid=Api&P=0&h=180"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "role": "Marketing Manager",
+      "description": "Jane Smith is our Marketing Manager. She is passionate about creating effective marketing strategies to promote our car rental services and reach a wider audience.",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.ClOII7UWbYKatMG2Q-nuHAHaFL&pid=Api&P=0&h=180"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "role": "Operations Manager",
+      "description": "Bob Johnson is our Operations Manager. He oversees the day-to-day operations of our car rental service, ensuring that everything runs smoothly and efficiently.",
+      "image": "https://www.thewowstyle.com/wp-content/uploads/2020/02/M.S-Dhoni-768x580.png"
+    }
+  ],
+  "logo": [
+    {
+      "image": "https://www.carlogos.org/car-logos/bmw-logo.png"
+    },
+    {
+      "image": "https://www.carlogos.org/car-logos/ferrari-logo.png"
+    },
+    {
+      "image": "https://www.carlogos.org/car-logos/ford-logo.png"
+    },
+    {
+      "image": "https://www.carlogos.org/car-logos/lamborghini-logo.png"
+    },
+    {
+      "image": "https://www.carlogos.org/car-logos/toyota-logo.png"
+    },
+    {
+      "image": "https://www.carlogos.org/car-logos/mercedes-benz-logo.png"
+    },
+    {
+      "image": "https://www.carlogos.org/car-logos/rolls-royce-logo.png"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "customerName": "Satya Narayana Reddy Satti",
+      "review": "Great product, highly recommended!",
+      "rating": 5,
+      "customerImage": "https://media.licdn.com/dms/image/D5635AQFStIKT4Bh4YQ/profile-framedphoto-shrink_400_400/0/1695043085931?e=1697277600&v=beta&t=6E2RVE1nHCIbQJravox0PJUX0S5rSQX1hqoM5Yb0FzA"
+    },
+    {
+      "id": 2,
+      "customerName": "Pavan",
+      "review": "Good service and fast delivery.",
+      "rating": 4,
+      "customerImage": "https://media.licdn.com/dms/image/D5635AQHP1FZSRQuh_Q/profile-framedphoto-shrink_400_400/0/1681274783779?e=1697277600&v=beta&t=dVW2g0uzeIe1jFZPInix__QMHzmDnhq52vaiCbskeEY"
+    },
+    {
+      "id": 3,
+      "customerName": "Pitchiki",
+      "review": "Average experience",
+      "rating": 3,
+      "customerImage": "https://media.licdn.com/dms/image/D5603AQERhxnpV1LSMA/profile-displayphoto-shrink_400_400/0/1687761720497?e=1701907200&v=beta&t=V2U2Jta8lUXOAf48mDlRcAF8EdhvrcBw4SuNrdQzkPA"
+    },
+    {
+      "id": 4,
+      "customerName": "Satya Narayana Reddy Satti",
+      "review": "Great product, highly recommended!",
+      "rating": 5,
+      "customerImage": "https://media.licdn.com/dms/image/D5635AQFStIKT4Bh4YQ/profile-framedphoto-shrink_400_400/0/1695043085931?e=1697277600&v=beta&t=6E2RVE1nHCIbQJravox0PJUX0S5rSQX1hqoM5Yb0FzA"
+    },
+    {
+      "id": 5,
+      "customerName": "Bob",
+      "review": "Good service and fast delivery.",
+      "rating": 4,
+      "customerImage": "https://example.com/customer2.jpg"
+    },
+    {
+      "id": 6,
+      "customerName": "Charlie",
+      "review": "Average experience, but the price was reasonable.",
+      "rating": 3,
+      "customerImage": "https://example.com/customer3.jpg"
+    },
+    {
+      "customerName": "hemanth",
+      "review": "awsome services",
+      "rating": "3",
+      "id": 7
+    }
+  ]
+}

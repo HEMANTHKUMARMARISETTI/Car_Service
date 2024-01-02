@@ -1,0 +1,126 @@
+/* CartDisplay.css */
+
+/* Font Family */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Cart Heading */
+.cart-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Cart Table */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto; /* Center the table horizontally */
+  max-width: 100%; /* Ensure it doesn't exceed the screen width */
+}
+
+.cart-table th,
+.cart-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.cart-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Cart Item Image */
+.cart-item-image {
+  max-width: 80px;
+  max-height: 80px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Cart Remove Button */
+.cart-remove-button {
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cart-remove-button:hover {
+  background-color: #ff4949;
+  transform: scale(1.05);
+}
+
+/* Cart Order Button */
+.cart-order-button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  float: right;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cart-order-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+
+  .cart-heading {
+    margin-bottom: 75px; /* Add space between cart-heading and table */
+  }
+
+  .cart-table {
+    margin-top: 100px;
+    margin: -50px; /* Remove margin to move the table to the left */
+    margin-bottom: 15px;
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .cart-item-image {
+    max-width: 60px; /* Reduce image size */
+    max-height: 60px; /* Reduce image size */
+  }
+
+  .cart-order-button {
+    margin-top: 20px; /* Add space below the order button */
+  }
+}

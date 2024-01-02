@@ -1,0 +1,48 @@
+/* country.css */
+
+/* Container styles */
+.country-container {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* List styles */
+  .country-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .country-item {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for list items */
+  .country-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Country name styles */
+  .country-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Currency styles */
+  .country-currency {
+    font-size: 16px;
+    color: #666;
+  }
+  
